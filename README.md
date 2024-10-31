@@ -1,26 +1,40 @@
-"# Stock Savvy Dashboard for Market Mavens" 
-# 6060_MELCHIZEDEK_STOCKDASHBOARD
+# Stock Savvy Dashboard for Market Mavens
 
-## Stock Savvy Dashboard for Market Mavens
+## Overview
+**Stock Savvy** is an interactive dashboard designed to provide comprehensive stock insights for major companies. Using data analytics, the dashboard tracks and visualizes several Key Performance Indicators (KPIs) related to stock performance, investor sentiment, and market volatility.
 
-This project is a comprehensive stock dashboard that provides insights for top data analytics companies. It includes data visualizations such as price trends, volatility, and sentiment analysis.
+## Key Features
+- **Stock Performance Analysis**: Visualize historical stock prices and moving averages.
+- **Investor Sentiment Analysis**: Track sentiment trends using sentiment scores for positive, neutral, and negative sentiments.
+- **Market Volatility Gauge**: Assess the market risk with an easy-to-read volatility gauge.
+- **Interactive Selection**: Choose from different companies to explore their specific analytics.
 
-### Features
+## KPIs
+1. Stock Closing Price
+2. Relative Strength Index (RSI)
+3. Investor Sentiment Index
+4. Volatility
+5. Sentiment Distribution Over Time
 
-- **Stock Performance**: Line chart showing historical price and RSI.
-- **Volatility Analysis**: Visualization of market volatility over time.
-- **Sentiment Analysis**: Investor sentiment index and distribution over time.
-- **Market Insights**: Bubble chart showcasing sentiment versus volatility.
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/IainAmosMelchizedek/6060_MELCHIZEDEK_STOCKDASHBOARD.git
+    cd 6060_MELCHIZEDEK_STOCKDASHBOARD
+    ```
 
-### Technologies Used
+2. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-- **Python**
-- **Dash for Web Application**
-- **Plotly for Data Visualization**
-- **yfinance for Stock Data Retrieval**
+3. Run the dashboard:
+    ```bash
+    python 6060_MELCHIZEDEK_STOCKDASHBOARD.py
+    ```
 
-### Setup
+## Usage
+Simply select a company from the dropdown menu to view its metrics across various tabs. You can explore stock trends, sentiment analysis, volatility, and investor insights.
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/IainAmosMelchizedek/6060_MELCHIZEDEK_STOCKDASHBOARD.git
+## License
+This project is licensed under the MIT License.
